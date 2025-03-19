@@ -13,9 +13,7 @@ $(document).ready(function(){
 	for(var i=0; i<subcoll.length; i++){
 		var subc=document.getElementsByClassName("itemssubc")[i].children;
 		var first=subc[0].children[0].childNodes[1].innerText;
-		console.log(first);
 		var last=subc[subc.length-1].children[0].childNodes[1].innerText;
-		console.log(last);
 		subcoll[i].innerHTML=first+"-"+last;
 	}
 
