@@ -1,0 +1,164 @@
+h2, h3{
+	font-family:'Mali', cursive, fantasy;
+}
+
+h2{
+	font-size:1.7em;
+}
+
+h3{
+	font-size:1.4em;
+	margin-bottom:1em;
+	margin-top:0px;
+}
+
+h4{
+	font-size:1.1em;
+	margin-bottom:1em;
+	margin-top:0px;
+}
+
+.poem{
+	padding-top:70px;
+	font-size:1.05em;
+}
+
+.date{
+	color:hsl(180, 10%, 50%);
+	font-size:.8em;
+	font-style:oblique;
+	padding-top:.8em;
+}
+
+li{
+	position:relative;
+	list-style-type: none;
+	font-family:'Mali', cursive, fantasy, serif;
+	font-size: 1.125em;
+	border-style: dotted;
+	border-width: 0px 0px 2px 0px;
+	margin-bottom: .3em;
+	margin-top: .7em;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+li.subcollection{
+	border:none;
+}
+
+div.subcollection{
+	border-style: dotted;
+	border-width: 0px 0px 2px 0px;
+	margin-bottom: .3em;
+	margin-top: .7em;
+	margin-left:0px;
+	padding-left:0px;
+	position:relative;
+}
+
+
+.number, .numbers{
+	position:absolute;
+	right:0%;
+	margin:0px;
+	padding:0px;
+	bottom:0%;
+}
+
+.upto{
+	position:fixed;
+	display:none;
+	left:7%;
+	bottom:10%;
+	width:50px;
+	height:50px;
+	z-index:98;
+}
+
+.upto>img{
+	width:50px;
+	height:50px;
+}
+
+li>a:hover, .comment>a:hover{
+	color:hsl(180, 10%, 50%);
+}
+
+h3:hover>.comment{
+	display:inline-block;
+}
+
+.insidelist{
+	list-style-type: circle;
+	font-family:inherit;
+	font-size:inherit;
+	border: none;
+	position:static;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+#fart>h3{
+	font-family:'Uncial Antiqua', cursive, fantasy;
+}
+
+.meme{
+	width:377px;
+	height:170px;
+}
+
+#divinity>h5{
+	font-family:'Caveat', cursive, fantasy;
+	font-size:1em;
+}
+
+.banner{
+	max-width:100%;
+	height:auto;
+	margin-bottom:1em;
+	border-radius: 20%;
+	display:block;
+}
+
+.inside{
+	max-width:100%;
+	height:auto;
+	margin-top:1em;
+	margin-bottom:1em;
+	display:block;
+}
+
+.small{
+	max-width:40%;
+}
+
+.indent{
+	width:100%;
+	margin:0px;
+	padding-left:2.5em;
+}
+
+.itemssubc{
+	font-size:0.8em;
+}
+
+.subctitle{
+	padding-top:70px;
+}
+
+.frstpoem{
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.add{
+	color:rgb(180,180,180);
+	font-size:.8em;
+	border-bottom: 1px dashed rgb(180,180,180);
+	cursor: pointer;
+}
+
+.faint{
+	color: hsl(0,0%,80%);
+}

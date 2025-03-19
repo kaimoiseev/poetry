@@ -1,0 +1,27 @@
+strong{
+	font-weight:normal;
+	font-family:'Mali', cursive, serif;
+	font-size:1.1em;
+}
+
+
+div:hover>.comment{
+	display:inline-block;
+}
+
+.portrait{
+	max-width:100%;
+	height:auto;
+}
+
+figcaption{
+	font-size:.9em;
+}
+
+figure{
+	margin:0px;
+	width:100%;
+	padding:0px;
+	display:inline-block;
+	color:hsl(180, 25%, 40%);
+}

@@ -1,0 +1,96 @@
+body{
+	background: hsl(34, 78%, 91%);
+	font-family:'Varela Round', sans-serif;
+	color:hsl(180, 25%, 25%);
+	font-size:1em;
+}
+
+.fixed_header{
+	background: hsl(180, 25%, 25%);
+	width:100%;
+	height:50px;
+	margin: 0px;
+	position:fixed;
+	left:0px;
+	top:0px;
+	display:flex;
+	font-family:'Mali', cursive, serif;
+	z-index:99;
+	overflow:hidden;
+}
+
+.button{
+	margin-top: auto;
+	margin-bottom:auto;
+	width:22%;
+	margin-left:5%;
+	text-align:center;
+	font-size:1.3em;
+	height:30px;
+	color:hsl(34, 78%, 91%);
+	overflow:visible;
+}
+
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+#logo{
+	font-family:'Meddon', cursive, serif;
+	color: hsl(34, 78%, 91%);
+	font-size:1.6em;
+	width: 35%;
+	margin-top:0px;
+	overflow: visible;
+}
+
+.content{
+	width:42%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 150px;
+	padding-top:100px;
+	overflow:hidden;
+}
+
+.withcomment{
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	display:inline-block;
+}
+
+
+.comment{
+	display:none;
+	position:absolute;
+	background: hsl(60, 100%, 97%);
+	border:1px solid hsl(180, 15%, 40%);
+	border-radius:1em;
+	padding:.2em;
+	font-size:.7em;
+	font-family:'Varela Round', sans-serif;
+	z-index:90;
+}
+
+.page{
+	position:fixed;
+	width:0%;
+	height:0%;
+	bottom:0%;
+	right:0%;
+	transition: all 1s;
+	background: hsl(34, 78%, 91%);
+	background-image:url(../images/pageflip.png);
+	background-size: cover;
+	z-index:100;
+}
+
+.button:hover {
+	color: hsl(214, 41%, 85%);
+}
+
+h2,h3,h4{
+	font-weight: normal;
+}
+
